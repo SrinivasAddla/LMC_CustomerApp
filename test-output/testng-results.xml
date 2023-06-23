@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T12:38:32 IST" name="Suite" finished-at="2023-06-20T12:38:47 IST" duration-ms="15339">
+    <groups>
+      <group name="lmcP0">
+        <method signature="AddToCartTest.addToCartTest()[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" name="addToCartTest" class="Lmc_CustomerTest.AddToCartTest"/>
+        <method signature="LoginTest.loginTest()[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" name="loginTest" class="Lmc_CustomerTest.LoginTest"/>
+      </group> <!-- lmcP0 -->
+    </groups>
+    <test started-at="2023-06-20T12:38:32 IST" name="Test" finished-at="2023-06-20T12:38:47 IST" duration-ms="15339">
+      <class name="Lmc_CustomerTest.AddToCartTest">
+        <test-method is-config="true" signature="extentReport()[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:31 IST" name="extentReport" finished-at="2023-06-20T12:38:32 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method is-config="true" signature="launchBrower(java.lang.String)[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:32 IST" name="launchBrower" finished-at="2023-06-20T12:38:33 IST" duration-ms="1524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method is-config="true" signature="launchBrowerIfClosed(java.lang.String)[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:33 IST" name="launchBrowerIfClosed" finished-at="2023-06-20T12:38:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowerIfClosed -->
+        <test-method signature="addToCartTest()[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:33 IST" name="addToCartTest" finished-at="2023-06-20T12:38:35 IST" duration-ms="1629" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button']//img)[1]"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c0aab0beb043b7c56de31c799c234d, findElement {using=xpath, value=(//button[@type='button']//img)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50577/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c0aab0beb043b7c56de31c799c234d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='button']//img)[1]"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13c0aab0beb043b7c56de31c799c234d, findElement {using=xpath, value=(//button[@type='button']//img)[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SRINIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50577/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13c0aab0beb043b7c56de31c799c234d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at utilities.webActionDriver.getElement(webActionDriver.java:203)
+at utilities.webActionDriver.isElementDisplayed(webActionDriver.java:212)
+at Lmc_CustomerPages.AddToCartPage.restaurantLanding(AddToCartPage.java:31)
+at Lmc_CustomerTest.AddToCartTest.addToCartTest(AddToCartTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="ifBrowserNotClosed(java.lang.String)[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:35 IST" name="ifBrowserNotClosed" finished-at="2023-06-20T12:38:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifBrowserNotClosed -->
+        <test-method is-config="true" signature="ifBrowserNotClose(java.lang.String)[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:35 IST" name="ifBrowserNotClose" finished-at="2023-06-20T12:38:35 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifBrowserNotClose -->
+        <test-method is-config="true" signature="assignAuthorAndCategory(java.lang.String,java.lang.String)[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:47 IST" name="assignAuthorAndCategory" finished-at="2023-06-20T12:38:47 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srinivas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smoke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignAuthorAndCategory -->
+        <test-method is-config="true" signature="endExtentReport()[pri:0, instance:Lmc_CustomerTest.AddToCartTest@5f9678e1]" started-at="2023-06-20T12:38:47 IST" name="endExtentReport" finished-at="2023-06-20T12:38:47 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtentReport -->
+      </class> <!-- Lmc_CustomerTest.AddToCartTest -->
+      <class name="Lmc_CustomerTest.LoginTest">
+        <test-method is-config="true" signature="launchBrower(java.lang.String)[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" started-at="2023-06-20T12:38:35 IST" name="launchBrower" finished-at="2023-06-20T12:38:36 IST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrower -->
+        <test-method is-config="true" signature="launchBrowerIfClosed(java.lang.String)[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" started-at="2023-06-20T12:38:36 IST" name="launchBrowerIfClosed" finished-at="2023-06-20T12:38:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowerIfClosed -->
+        <test-method signature="loginTest()[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" started-at="2023-06-20T12:38:36 IST" name="loginTest" finished-at="2023-06-20T12:38:47 IST" duration-ms="10752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="ifBrowserNotClosed(java.lang.String)[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" started-at="2023-06-20T12:38:47 IST" name="ifBrowserNotClosed" finished-at="2023-06-20T12:38:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifBrowserNotClosed -->
+        <test-method is-config="true" signature="ifBrowserNotClose(java.lang.String)[pri:0, instance:Lmc_CustomerTest.LoginTest@241e8ea6]" started-at="2023-06-20T12:38:47 IST" name="ifBrowserNotClose" finished-at="2023-06-20T12:38:47 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifBrowserNotClose -->
+      </class> <!-- Lmc_CustomerTest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

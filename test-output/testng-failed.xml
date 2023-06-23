@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="closeBrowserAfterTest" value="false"/>
+  <parameter name="author" value="Srinivas"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="category" value="Smoke"/>
+  <listeners>
+    <listener class-name="utilities.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="lmcP0"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Lmc_CustomerTest.AddToCartTest">
+        <methods>
+          <include name="launchBrower"/>
+          <include name="launchBrowerIfClosed"/>
+          <include name="endExtentReport"/>
+          <include name="ifBrowserNotClose"/>
+          <include name="ifBrowserNotClosed"/>
+          <include name="addToCartTest"/>
+          <include name="extentReport"/>
+          <include name="assignAuthorAndCategory"/>
+        </methods>
+      </class> <!-- Lmc_CustomerTest.AddToCartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

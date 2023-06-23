@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="closeBrowserAfterTest" value="false"></parameter>
+	<parameter name="author" value="Srinivas"></parameter>
+	<parameter name="category" value="Smoke"></parameter>
+	<listeners>
+		<listener class-name="utilities.TestListener" />
+	</listeners>
+	<test thread-count="1" name="Test">
+		<groups>
+			<run>
+				<include name="lmcP0"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="Lmc_CustomerTest.AddToCartTest" />
+			<class name="Lmc_CustomerTest.LoginTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
